@@ -1,0 +1,10 @@
+{
+    "statusCode":"${statusCode!}",
+    "message":"${message!}",
+    "rel":"${(param.rel)!}",
+    "navTabId":"<#if navTabId??>${navTabId!}<#else>${(param.navTabId)!}</#if>",
+    "callbackType":"<#if callbackType??>${callbackType!}<#else>${(param.callbackType)!}</#if>",
+    "forwardUrl":"<#if forwardUrl??>${forwardUrl!}<#else>${(param.forwardUrl)!}</#if>",
+    "navTabTitle":"<#if navTabTitle??>${navTabTitle!}<#else>${(param.navTabTitle)!}</#if>",
+    "resultDetail": ${resultDetail!}
+}
