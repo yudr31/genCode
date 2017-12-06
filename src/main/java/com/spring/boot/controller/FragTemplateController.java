@@ -24,8 +24,6 @@ public class FragTemplateController extends BaseController{
 
     @RequestMapping("/fragmentTemplateList")
     public String fragmentTemplateList(HttpServletRequest request, FragmentTemplate fragmentTemplate, ModelMap modelMap){
-        String str = null;
-        str.toString();
         return getFragmentTemplateList(request,fragmentTemplate,modelMap);
     }
 
