@@ -51,12 +51,6 @@ public class FileUtil {
 //        System.out.println("*****************下载成功*******************");
     }
 
-    public static void main(String[] args) {
-        String dirPath = "G:\\IdeaProjects\\genCode\\target\\genCode-0.0.1-SNAPSHOT\\download\\channelSaleInfo";
-        String fileName = "channelSaleInfo.zip";
-        zipFiles(fileName,dirPath);
-    }
-
     /**
      * 将打包好的文件下载到用户浏览器
      * @param response
