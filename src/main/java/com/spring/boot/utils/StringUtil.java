@@ -104,12 +104,6 @@ public class StringUtil {
 		return result;
 	}
 
-	public static void main(String[] args) {
-		String str = "UserName";
-		String str1 = "pkg";
-		System.out.println(addFileSeparator(str));
-	}
-
 	/**
 	 * 将字符首字母转换为小写
 	 * @param str
