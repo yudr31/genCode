@@ -230,13 +230,4 @@ public class DataBaseUtil {
 		}
 	}
 
-	public static void main(String[] args) {
-//		SingleTableInfo tableInfo = new SingleTableInfo();
-//		tableInfo.setTableName("ecsys_orderMonitor_autoConfirmOrderRuleGroup");
-//		getTableInfo(tableInfo);
-//		System.out.println(tableInfo);
-		String status = "activityShowType";
-		System.out.println(getColumnDict(status));
-	}
-	
 }
