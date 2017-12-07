@@ -15,4 +15,4 @@ docker 环境部署
 10. 进入浏览器输入访问地址访问项目：localhost:8081/genCode/
 
 
-前端使用 dwz框架，后台使用spring boot框架！数据持久层使用spring data做添加和修改，使用mabaties做查询。
+使用的技术和框架：前端使用dwz框架，后台使用spring boot框架！数据持久层使用spring data做添加和修改，使用mabaties做查询。前端页面的渲染和代码模板采用了freemarker模板引擎。
