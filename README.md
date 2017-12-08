@@ -27,4 +27,4 @@
 2. 后台使用spring boot框架。
 3. 数据持久层使用spring data做添加和修改。
 4. 使用mabaties框架和JDBC技术做查询。
-5.前端页面的渲染和代码模板采用了freemarker模板引擎。
+5. 前端页面的渲染和代码模板采用了freemarker模板引擎。
