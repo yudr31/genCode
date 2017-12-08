@@ -68,11 +68,10 @@
 </form>
 <script>
     function preview($this) {
-        alert("ok");
         navTab.openTab("test", "genCode/previewSingleTable",{title:"预览",data: $('#tableForm',navTab.getCurrentPanel()).serializeArray()});
     }
     function download(json) {
         var data = json[DWZ.keys.resultDetail];
-        window.location.href = '/genCode/download?fileName=' + data;
+        window.location.href = 'genCode/download?fileName=' + data;
     }
 </script>

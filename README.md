@@ -5,7 +5,7 @@
 2. 安装maven环境 执行docker命令： docker pull hub.c.163.com/library/maven （注：可能存在超时或连接不上，建议多试几次）
 3. 安装tomcat环境 执行docker命令： docker pull hub.c.163.com/library/tomcat （注：可能存在超时或连接不上，建议多试几次）
 4. 安装mysql环境 执行docker命令：docker pull hub.c.163.com/library/mysql （注：可能存在超时或连接不上，建议多试几次）
-5. 启动mysql数据库同时创建数据库 执行docker命令 docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=nnk_code hub.c.163.com/library/mysql
+5. 启动mysql数据库同时创建数据库 执行docker命令 docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=nnk_code hub.c.163.com/library/mysql --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
 6. 修改genCode/src/main/resource/application.properties文件连接数据库的配置，将数据ip更改为docker宿主主机ip。
 7. 进入genCode文件目录，执行步骤7和步骤8命令。（注：步骤7和步骤8需在genCode目录下执行）
 8. 执行docker命令：docker run -it --rm -v "$PWD":"$PWD" -v "$HOME/.m2":/root/.m2 -w "$PWD" hub.c.163.com/library/maven mvn clean package -nsu -Dmaven.test.skip=true
