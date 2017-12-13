@@ -346,7 +346,7 @@ var navTab = {
 	 * @param {Object} params: title, data, fresh
 	 */
 	openTab: function(tabid, url, options){ //if found tabid replace tab, else create a new tab.
-		var op = $.extend({title:"New Tab", type:"GET", data:{}, fresh:true, external:false}, options);
+		var op = $.extend({title:"New Tab", type:"POST", data:{}, fresh:true, external:false}, options);
 
 		var iOpenIndex = this._indexTabId(tabid);
 
