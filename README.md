@@ -16,9 +16,8 @@
 11. 进入浏览器输入访问地址访问项目：localhost:8080/genCode/
 
 生成代码操作:
-1. 执行demo.sql数据库脚本，创建ecsys_system_productInfo表。
-2. 点击生成代码菜单，在请输入表名输入框输入：ecsys_system_productInfo，点击查询单表信息按钮。
-3. 勾选对应信息，点击创建按钮即可生成代码。
+1. 点击生成代码菜单，在请输入表名输入框输入：ecsys_system_productInfo，点击查询单表信息按钮。
+2. 勾选对应信息，点击创建按钮即可生成代码。
 
 
 
