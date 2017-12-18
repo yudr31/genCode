@@ -52,7 +52,7 @@ public class GenCodeController extends BaseController{
     @RequestMapping("/generateSingleTable")
     public ModelAndView generateSingleTable(SingleTableInfo tableInfo){
         genCodeService.generateSingleTable(tableInfo);
-        return getSuccessResponse(tableInfo.getProtoEntity());
+        return getSuccessResponse(tableInfo.getEntityName());
     }
 
     @RequestMapping("/previewSingleTable")
